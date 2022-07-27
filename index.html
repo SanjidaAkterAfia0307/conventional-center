@@ -17,15 +17,15 @@
  
   <header class="container">
     <!-- nav -->
-    <nav class="navbar navbar-expand-lg  ">
-      <div >
-        <a href="#" class="navbar-brand fw-bold fs-4 text-wrap">Abacus Convention Center</a>
+    <nav class="navbar navbar-expand-lg d-flex justify-content-evenly ">
+      
+        <a href="#" class="navbar-brand fw-bolder fs-4 text-wrap">Abacus Convention Center</a>
         <button class="navbar-toggler collapsed" type="button" data-bs-target="#nav-menu" data-bs-toggle="collapse">
           <span class="navbar-toggler-icon fs-6"></span>
         </button>
-      </div>
+      
       <div class="collapse navbar-collapse" id="nav-menu">
-        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fw-bolder">
           <li class="nav-item"><a href="#" class="nav-link ">Home</a></li>
           <li class="nav-item"><a href="#" class="nav-link ">About Us</a></li>
           <li class="nav-item"><a href="#" class="nav-link ">Contact</a></li>
@@ -46,9 +46,9 @@
           <img src="images/banner.png" class="d-block w-100" alt="...">
           <div class="carousel-caption">
             <div>
-              <h1 class="h1 fw-bolder">The perfect venue for your <br>
+              <h1 class="h1 fw-bolder display-3">The perfect venue for your <br>
                 next event</h1>
-              <p class="inter">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto tenetur delectus nulla deserunt qui quisquam voluptatem molestiae molestias praesentium quod.</p>
+              <p class="h5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto tenetur delectus nulla deserunt qui quisquam voluptatem molestiae molestias praesentium quod.</p>
                 <button class="py-2 px-5 rounded border-0 bg-white text-primary fw-bold">Book Now</button>
             </div>
           </div>
@@ -65,7 +65,17 @@
     </div>
 
     <!-- wed sec -->
-    <section class="container my-5  ">
+    <section class="container position-relative my-5  ">
+      <!-- toast -->
+      <div class="toast show position-absolute border-0 top-50 end-0 bg-white" role="alert" >
+        <div class="d-flex">
+          <div class="toast-body border-start border-5 border-primary fw-bold "><img class="pe-1" src="icons/Vector.svg" alt="">
+            Hello, world! This is a toast message.
+          </div>
+          <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+        </div>
+      </div>
+      <!-- toast -->
       <div class="d-flex flex-lg-row flex-column-reverse align-items-lg-center    ">
         
         <div class="w-100 text-center">
@@ -83,7 +93,7 @@
 
     <!-- card -->
     <section class="container my-5">
-      <h1 class="text-center fw-bolder my-5 py-5 display-3 ">Our Package</h1>
+      <h1 class="text-center fw-bold my-5 py-5 display-5 ">Our Package</h1>
       <div class="row ">
         <div class="col-lg-3 col-md-6 col-sm-12 ">
           <div class="card border-0" style="width: 18rem;">
@@ -103,7 +113,7 @@
           </div>
         </div>
       </div>
-       <div class="col-lg-3 col-md-6 col-sm-12">
+       <div class="col-lg-3 col-md-6 col-sm-12 mb-5">
         <div class="card border-0" style="width: 18rem;">
           <div class="card-body">
             <h2 class="card-title fw-bolder h1 py-2">$500</h2>
@@ -167,7 +177,7 @@
     <!-- customer review -->
 
     <section class="container my-5">
-      <h1 class="text-center  fw-bolder my-5 py-5 display-3 ">Happy Clients Says</h1>
+      <h1 class="text-center  fw-bold my-5 py-5 display-5 ">Happy Clients Says</h1>
       <div class="row g-4">
         <div class="col-lg-4 ">
           <div class="card shadow-lg text-center p-4 border-0 d-flex align-items-center" style="width:22rem ;">
@@ -218,9 +228,10 @@
     </section>
 
     <!-- questions -->
+    <h1 class="text-center  fw-bold my-5 py-5 display-5 ">Frequently AsQuestions</h1>
     <section class="container my-5 ">
-      <h1 class="text-center  fw-bolder my-5 py-5 display-3 ">Frequently AsQuestions</h1>
-      <div class="row align-items-center">
+      
+      <div class="row align-items-center d-flex  flex-lg-row flex-column-reverse g-4">
         <div class="accordion col-lg-6" id="accordionExample">
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingOne">
@@ -273,14 +284,14 @@
         </div>
 
         <div class="col-lg-6 ">
-          <img src="images/people.png" alt="">
+          <img src="images/people.png" class="img-fluid" alt="">
         </div>
       </div>
     </section>
 
     <!-- footer -->
    <footer>
-    <section class="mt-5 bg-dark d-flex justify-content-around align-items-center" style="height:150px ;">
+    <section class="mt-5 bg-dark d-flex justify-content-around align-items-center flex-column flex-lg-row" style="height:150px ;">
       <div>
         <p class="text-muted">© 2020 bike. All rights reserved</p>
       </div>
