@@ -1,0 +1,18 @@
+/* goggle fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@700&family=Roboto:wght@500&display=swap');
+
+.btn-color{
+    background: #fcf0f8e0!important;
+}
+.icon{
+    color: #2a15c95e;
+    /* color: #5243C2; */
+}
+
+    .dif-card{
+        margin-top: -60px!important;
+    }
+    .badge-pos{
+        top: -10px!important;
+        right: 20px!important;
+    } 
